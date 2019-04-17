@@ -1,9 +1,6 @@
 #### CUFA 150 ####
 # This scenario does not permit diversion withdrawals in the Gila River when natural flows are less than 150 cfs
 
-#### Set working directory ####
-setwd("/Users/Morrison/Dropbox/Gila Bayesian/bayesian_network")
-
 # Read data for the scenario
 CUFA_150 <- scenario.process("data/scenarios.csv", 3)
 head(CUFA_150)

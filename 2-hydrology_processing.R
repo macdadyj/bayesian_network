@@ -4,11 +4,9 @@ library(prob)
 library(TTR)
 library(bigmemory)
 
-#### Set working directory ####
-setwd("/Users/Morrison/Dropbox/Gila Bayesian/bayesian_network")
 
 #### Source common functions ####
-source('~/Dropbox/Gila Bayesian/bayesian_network/1-functions.R')
+source('1-functions.R')
 
 #### WINDOWS WORKING DIRECTORY####
 # setwd("/Users/rmorriso/Documents/bayesian_network")

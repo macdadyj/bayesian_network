@@ -1,0 +1,277 @@
+PackratFormat: 1.4
+PackratVersion: 0.5.0
+RVersion: 3.4.4
+Repos: CRAN=https://cloud.r-project.org
+
+Package: BH
+Source: CRAN
+Version: 1.69.0-1
+Hash: 15f597ed227897f4f793b6161260f4b9
+
+Package: R6
+Source: CRAN
+Version: 2.4.0
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+
+Package: Rcpp
+Source: CRAN
+Version: 1.0.1
+Hash: 390ed5b5da840cec3e6f5c90c6ab23f7
+
+Package: Rttf2pt1
+Source: CRAN
+Version: 1.3.7
+
+Package: TTR
+Source: CRAN
+Version: 0.23-4
+Hash: dc37c7193f2b0fc0bc3718e787d5d19d
+Requires: curl, xts, zoo
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.1
+
+Package: bigmemory
+Source: CRAN
+Version: 4.5.33
+Hash: c59ab63fab0867604a42ef183c26ccdc
+Requires: BH, Rcpp, bigmemory.sri
+
+Package: bigmemory.sri
+Source: CRAN
+Version: 0.1.3
+Hash: 0054f67755bfacbe8a4b68624f071c3b
+
+Package: bnlearn
+Source: CRAN
+Version: 4.4.1
+Hash: b0c5733cfbbdbdc86b9970d835c262e3
+
+Package: cli
+Source: CRAN
+Version: 1.1.0
+Requires: assertthat, crayon
+
+Package: colorspace
+Source: CRAN
+Version: 1.4-1
+
+Package: combinat
+Source: CRAN
+Version: 0.0-8
+Hash: 1ddebf0315ec8a5c255adc4da9143b81
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+
+Package: curl
+Source: CRAN
+Version: 3.3
+Hash: b201f64e6e1469e8a3571c746ffa9059
+
+Package: digest
+Source: CRAN
+Version: 0.6.18
+
+Package: dplyr
+Source: CRAN
+Version: 0.8.0.1
+Requires: BH, Rcpp, R6, assertthat, glue, magrittr, pkgconfig, plogr,
+    rlang, tibble, tidyselect
+
+Package: extrafont
+Source: CRAN
+Version: 0.17
+Requires: Rttf2pt1, extrafontdb
+
+Package: extrafontdb
+Source: CRAN
+Version: 1.0
+
+Package: fAsianOptions
+Source: CRAN
+Version: 3042.82
+Hash: fca8fc61d5d6b94a974c39f0c1be9245
+Requires: fBasics, fOptions, timeDate, timeSeries
+
+Package: fBasics
+Source: CRAN
+Version: 3042.89
+Hash: f975ac7d77e2ea8d1537a42f2b528c80
+Requires: gss, stabledist, timeDate, timeSeries
+
+Package: fOptions
+Source: CRAN
+Version: 3042.86
+Hash: a957f3961d549f44b05b7fba8b3a647e
+Requires: fBasics, timeDate, timeSeries
+
+Package: fansi
+Source: CRAN
+Version: 0.4.0
+
+Package: ggplot2
+Source: CRAN
+Version: 3.1.1
+Requires: digest, gtable, lazyeval, plyr, reshape2, rlang, scales,
+    tibble, viridisLite, withr
+
+Package: glue
+Source: CRAN
+Version: 1.3.1
+
+Package: gss
+Source: CRAN
+Version: 2.1-9
+Hash: 30886e4bf1f19bffe3b0ef03ecaf1f05
+
+Package: gtable
+Source: CRAN
+Version: 0.3.0
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+
+Package: lazyeval
+Source: CRAN
+Version: 0.2.2
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+
+Package: maptools
+Source: CRAN
+Version: 0.9-5
+Requires: sp
+
+Package: munsell
+Source: CRAN
+Version: 0.5.0
+Requires: colorspace
+
+Package: packrat
+Source: CRAN
+Version: 0.5.0
+Hash: 498643e765d1442ba7b1160a1df3abf9
+
+Package: pillar
+Source: CRAN
+Version: 1.3.1
+Requires: cli, crayon, fansi, rlang, utf8
+
+Package: pkgconfig
+Source: CRAN
+Version: 2.0.2
+
+Package: plogr
+Source: CRAN
+Version: 0.2.0
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Requires: Rcpp
+
+Package: prob
+Source: CRAN
+Version: 1.0-1
+Hash: b2ad04be399177b9ec415186777a2c5d
+Requires: combinat, fAsianOptions
+
+Package: purrr
+Source: CRAN
+Version: 0.3.2
+Requires: magrittr, rlang
+
+Package: raster
+Source: CRAN
+Version: 2.8-19
+Requires: Rcpp, sp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.3
+Requires: Rcpp, plyr, stringr
+
+Package: rgdal
+Source: CRAN
+Version: 1.4-3
+Requires: sp
+
+Package: rlang
+Source: CRAN
+Version: 0.3.4
+
+Package: scales
+Source: CRAN
+Version: 1.0.0
+Requires: Rcpp, R6, RColorBrewer, labeling, munsell, viridisLite
+
+Package: sp
+Source: CRAN
+Version: 1.3-1
+
+Package: stabledist
+Source: CRAN
+Version: 0.7-1
+Hash: 22535f64b26104efc7e78e42bdf4982c
+
+Package: stringi
+Source: CRAN
+Version: 1.4.3
+
+Package: stringr
+Source: CRAN
+Version: 1.4.0
+Requires: glue, magrittr, stringi
+
+Package: tibble
+Source: CRAN
+Version: 2.1.1
+Requires: cli, crayon, fansi, pillar, pkgconfig, rlang
+
+Package: tidyselect
+Source: CRAN
+Version: 0.2.5
+Requires: Rcpp, glue, purrr, rlang
+
+Package: timeDate
+Source: CRAN
+Version: 3043.102
+Hash: bf9c128558c5730c3fbaf9ea5196e4bc
+
+Package: timeSeries
+Source: CRAN
+Version: 3042.102
+Hash: 2e2b4a6b58fefa108ddf5b847663eb29
+Requires: timeDate
+
+Package: utf8
+Source: CRAN
+Version: 1.1.4
+
+Package: viridisLite
+Source: CRAN
+Version: 0.3.0
+
+Package: withr
+Source: CRAN
+Version: 2.1.2
+
+Package: xts
+Source: CRAN
+Version: 0.11-2
+Hash: acb4b1b62b6b43d8d2752c5c4669c514
+Requires: zoo
+
+Package: zoo
+Source: CRAN
+Version: 1.8-5
+Hash: 43f9fd7feefb4b68ec677559a0d81fb6

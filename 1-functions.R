@@ -102,10 +102,10 @@ q.prob <- function(df, bin) {
   s <- probspace(df)
   for (i in 1:(length(bin)+1)) {
     if (i==1) {
-      a[i] <- prob(s, cfs<bin[i])
+      a[i] <- Prob(s, cfs<bin[i])
     }
     else {
-      a[i] <- prob(s, cfs>=bin[i-1])
+      a[i] <- Prob(s, cfs>=bin[i-1])
     }
   }
   a <- as.data.frame(a)
@@ -122,13 +122,13 @@ r.prob <- function(df, col, bin) {
   s <- probspace(df)
   for (i in 1:(length(bin)+1)) {
     if (i==1) {
-      a[i] <- prob(s, s[[col]]<bin[i])
+      a[i] <- Prob(s, s[[col]]<bin[i])
     }
     else if (i==(length(bin)+1)) {
-      a[i] <- prob(s, s[[col]]>=bin[i-1])
+      a[i] <- Prob(s, s[[col]]>=bin[i-1])
     }
     else {
-      a[i] <- prob(s, s[[col]]>=bin[i-1] & s[[col]]<bin[i])
+      a[i] <- Prob(s, s[[col]]>=bin[i-1] & s[[col]]<bin[i])
     }
   }
   a <- as.data.frame(a)
@@ -402,7 +402,7 @@ countevents <- function(allcells) {
 #   w <- probspace(df)
 #   x <- w[w[[variable]]>state1 & w[[variable]]<=state2, ]
 #   y <- w[w[["cfs"]]>=q_bin[bin_number], ]
-#   z <- prob(x, given=y)
+#   z <- Prob(x, given=y)
 #   return(z)
 # }
 
@@ -413,7 +413,7 @@ countevents <- function(allcells) {
 #     x <- w[w[[recess_col]]<=states[j+1] & w[[recess_col]]>states[j], ]
 #     for(i in 1:length(bin_variable)) {
 #       y <- w[w[["cfs"]]>=bin_variable[i], ]
-#       z <- prob(x, given=y)
+#       z <- Prob(x, given=y)
 #       a[i,j] <- z
 #       colnames(a)[j] <- paste(states[j], "_", states[j+1], "_cm/d", sep="")
 #     }
